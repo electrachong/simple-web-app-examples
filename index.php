@@ -5,7 +5,10 @@
     
     <body>
         <h1>A simple php webapp</h1>
-        <?php echo '<p>If php is enabled, you will see this text display</p>'; ?>
+        
+        #If php is enabled, you will see this text display
+        <?php echo '<p>Use php to show this text!</p>'; ?>
+        <?php phpinfo(); ?>
     </body>
 </html>
 
