@@ -1,17 +1,17 @@
 # config valid only for current version of Capistrano
 lock '3.5.0'
 
-set :application, 'simple-web-app-php'
+set :application, 'simple-web-app-examples'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default value for :scm is :git
 set :scm, :git
-set :repo_url, 'https://github.com/electrachong/simple-web-app-php'
+set :repo_url, 'https://github.com/electrachong/simple-web-app-examples'
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, '/home/deploy/simple-web-app-php'
+set :deploy_to, '/home/deploy/simple-web-app-examples'
 
 # Default value for :pty is false: http://capistranorb.com/documentation/advanced-features/ptys/
 # set :pty, true

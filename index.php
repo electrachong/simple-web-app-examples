@@ -47,7 +47,7 @@
         <p>Similar to above example, except a python file generates the response. We will utilize python's datetime and random modules in this example.</p>
         
         <!-- This time we are going to send to a raw Python script, called 'randomnumbers', which will generate the HTTP response -->
-        <!-- For web servers to execute a script, you may need to place the file in a special directory called the cgi-bin, and tweak some configurations. Here are instructions for Apache: http://code-maven.com/set-up-cgi-with-apache --> 
+        <!-- For web servers to execute a raw script, you may need to place the file in a special directory called the cgi-bin, and tweak some configurations. Here are instructions for Apache: http://code-maven.com/set-up-cgi-with-apache --> 
         <form action="/cgi-bin/random_numbers.py" method="post">
             <p>Your name: <input type="text" name="name" /></p>
             <p>Pick a range of numbers.</p>
