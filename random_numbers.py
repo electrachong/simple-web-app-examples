@@ -7,7 +7,7 @@ import datetime
 import random
 
 # We have to format our response in the format of a HTML response
-print("Content-type: text/html\n\n") # HTTP header to say HTML is following
+print("Content-type: text/html\r\n") # HTTP header to say HTML is following
 
 ''' Blank line must separate response header and message body.
     Message body contains the html we want to be rendered in the document. '''
