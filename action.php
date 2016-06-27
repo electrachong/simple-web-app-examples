@@ -6,20 +6,20 @@
   $picture  = htmlspecialchars($_POST['picture']);
 ?>
 
-Here you go, <?php echo $name; ?>! </br>
+<p>Here you go, <?php echo $name; ?>!</p>
 
 <!-- You can use control structures with php -->
 <?php
 if ($picture == "pink_feathers") {
-    echo '<img src="https://pbs.twimg.com/media/Cl6LQ5GUgAAnhI0.jpg:large" />';
+    echo '<img src="https://pbs.twimg.com/media/Cl6LQ5GUgAAnhI0.jpg" />';
 } 
 elseif ($picture == "rainbow_lei") {
-    echo '<img src="https://pbs.twimg.com/media/Cl6LQ5EUoAEossh.jpg:large" />';
+    echo '<img src="https://pbs.twimg.com/media/Cl6LQ5EUoAEossh.jpg" />';
 }
 elseif ($picture == "batman") {
-    echo '<img src="https://pbs.twimg.com/media/Cl43GDJUgAAPYYV.jpg:large" />';
+    echo '<img src="https://pbs.twimg.com/media/Cl43GDJUgAAPYYV.jpg" />';
 }
 else {
-    echo '<img src="https://pbs.twimg.com/media/Cl1MA5SUoAA56CX.jpg:large" />';
+    echo '<img src="https://pbs.twimg.com/media/Cl1MA5SUoAA56CX.jpg" />';
 } 
 ?>
