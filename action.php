@@ -11,15 +11,15 @@ Here you go, <?php echo $name; ?>! </br>
 <!-- You can use control structures with php -->
 <?php
 if (strcmp($picture == "pink_feathers") {
-    echo '<img src="https://pbs.twimg.com/media/Cl6LQ5GUgAAnhI0.jpg:large" />'
+    echo '<img src="https://pbs.twimg.com/media/Cl6LQ5GUgAAnhI0.jpg:large" />';
 } 
 elseif ($picture == "rainbow_lei") {
-    echo '<img src="https://pbs.twimg.com/media/Cl6LQ5EUoAEossh.jpg:large" />'
+    echo '<img src="https://pbs.twimg.com/media/Cl6LQ5EUoAEossh.jpg:large" />';
 }
 elseif ($picture == "batman") {
-    echo '<img src="https://pbs.twimg.com/media/Cl43GDJUgAAPYYV.jpg:large" />'
+    echo '<img src="https://pbs.twimg.com/media/Cl43GDJUgAAPYYV.jpg:large" />';
 }
 else {
-    echo '<img src="https://pbs.twimg.com/media/Cl1MA5SUoAA56CX.jpg:large" />'
+    echo '<img src="https://pbs.twimg.com/media/Cl1MA5SUoAA56CX.jpg:large" />';
 } 
 ?>
