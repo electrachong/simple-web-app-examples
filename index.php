@@ -46,12 +46,12 @@
         <h2>Another basic form (redirects to python-rendered results page)</h2>
         <p>Similar to above example, except a python file generates the response. We will utilize python's time and random modules in this example.</p>
         
-        <!-- This time we are going to send to a Python script, called 'randomnumbers' -->
-        <form action="randomnumbers" method="post">
+        <!-- This time we are going to send to a raw Python script, called 'randomnumbers', which will generate the HTTP response -->
+        <form action="random_numbers" method="post">
             <p>Your name: <input type="text" name="name" /></p>
             <p>Pick a range of numbers.</p>
             <select name="range">
-                <option value="0_10">1-10</option>
+                <option value="1_10">1-10</option>
                 <option value="11_20">11-20</option>
                 <option value="21_30">21-30</option>
             </select>
