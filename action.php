@@ -10,7 +10,7 @@ Here you go, <?php echo $name; ?>! </br>
 
 <!-- You can use control structures with php -->
 <?php
-if (strcmp($picture == "pink_feathers") {
+if ($picture == "pink_feathers") {
     echo '<img src="https://pbs.twimg.com/media/Cl6LQ5GUgAAnhI0.jpg:large" />';
 } 
 elseif ($picture == "rainbow_lei") {
