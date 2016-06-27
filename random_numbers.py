@@ -7,7 +7,7 @@ import datetime
 import random
 
 # We have to format our response in the format of a HTML response
-print("Content-type: text/html\r\n") # HTTP header to say HTML is following
+print "Content-type: text/html\r\n\r\n" # HTTP header to say HTML is following
 
 ''' Blank line must separate response header and message body.
     Message body contains the html we want to be rendered in the document. '''
@@ -18,7 +18,7 @@ range   = html.escape(form["range"].value);
 random_number = random.randint(1,30)
 
 print("<p>Hi", name + "!</p>")
-print("The time is", datetime.datetime.now())
+print("<p>The time is", datetime.datetime.now() + "</p>")
 print("<p>The lucky number was", str(random_number) + "</p>")
 
 if (1 <= random_number <= 10 and range == "1_10") or \
