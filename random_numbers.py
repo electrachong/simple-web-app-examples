@@ -1,14 +1,4 @@
 #!/usr/bin/env python
-''' Above line tells system this is a Python script. '''
-
-'''
-    If using apache, you may need to follow the guide here - http://code-maven.com/set-up-cgi-with-apache - to make sure the cgi module is enabled, and either place this file in the /usr/lib/cgi-bin/ file or make a symbolic link, per the following:
-    
-    cd /usr/lib/cgi-bin
-    sudo ln -s [path to webapp repo]/random_numbers.py
-    
-    If using a different web server, look up the appropriate instructions for enabling cgi scripts.
-''' 
 
 import html
 import cgi			 # Use CGI package to access form data
