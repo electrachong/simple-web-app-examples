@@ -6,7 +6,7 @@ import cgitb; cgitb.enable()     # for troubleshooting
 import datetime
 import random
 
-''' We have to format our response in the format of a HTML response '''
+# We have to format our response in the format of a HTML response
 print("Content-Type: text/html") # HTTP header to say HTML is following
 print()                          # blank line, end of headers
 
