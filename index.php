@@ -44,10 +44,11 @@
         -------------PYTHON EXAMPLE OF HANDLING WEBFORM--------------
         ------------------------------------------------------------> 
         <h2>Another basic form (redirects to python-rendered results page)</h2>
-        <p>Similar to above example, except a python file generates the response. We will utilize python's time and random modules in this example.</p>
+        <p>Similar to above example, except a python file generates the response. We will utilize python's datetime and random modules in this example.</p>
         
         <!-- This time we are going to send to a raw Python script, called 'randomnumbers', which will generate the HTTP response -->
-        <form action="random_numbers" method="post">
+        <!-- For web servers to execute a script, you may need to place the file in a special directory called the cgi-bin, and tweak some configurations. Here are instructions for Apache: http://code-maven.com/set-up-cgi-with-apache --> 
+        <form action="/cgi-bin/random_numbers.py" method="post">
             <p>Your name: <input type="text" name="name" /></p>
             <p>Pick a range of numbers.</p>
             <select name="range">
